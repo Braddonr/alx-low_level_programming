@@ -1,23 +1,13 @@
 #include "holberton.h"
+#include <stdio.h>
 
 /**
- * _strchr - prints found c
- * @s: pointer to char
- * @c: char params to found
- * Return: *S
-*/
-
+ * _strchr - locates a character in a string
+ * @s: string to be searched
+ * @c: target char
+ */
 char *_strchr(char *s, char c)
 {
-	int i;
 
-	for (i = 0; s[i] != '\0'; i++)
-	{
 
-		if (s[i] == c)
-		{
-			return (s + i);
-		}
-	}
-	return (0);
 }
